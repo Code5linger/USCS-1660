@@ -28,47 +28,48 @@ FT.manifest({
     {
       name: "insertCSS",
       type: "text",
-      default: "#logo{width: 98px !important;}",
+      default: "",
     },
     {
       name: "headlineTxt",
       type: "text",
-      default: "The detail we're most proud of.",
+      default: "No interest when paid in<br/>full within 12 months.",
     },
     {
       name: "headline_xy_width_hex_size",
       type: "text",
-      default: "0,162, 300, #000, 52",
+      default: "4,40, 295, #3e2715, 21",
     },
     {
       name: "subheadlineText",
       type: "text",
-      default: "",
+      default: "SAVE ON CEMETERY PROPERTY",
     },
     {
       name: "subheadline_xy_width_hex_size",
       type: "text",
-      default: "1,14, 300, #47d5cd, 12",
+      default: "1,22, 300, #008da0, 12",
     },
     {
       name: "legalText",
       type: "text",
-      default: "",
+      default: "Click for terms and conditions.",
     },
     {
       name: "legal_xy_width_hex_size",
       type: "text",
-      default: "0,0, 300, #000, 10",
+      default: "91,527, 300, #000, 8",
     },
     {
       name: "defaultLocationText",
       type: "text",
-      default: "Cook-Walden Funeral, Cremation & Memorial Park",
+      default:
+        "Alexander-White Mullen Funeral<br/>Home & Mount Lebanon Cemetary",
     },
     {
       name: "location_xy_width_hex_size",
       type: "text",
-      default: "0,428, 220, #000, 22",
+      default: "0,144, 300, #008da0, 14.5 ",
     },
     {
       name: "backgroundColor",
@@ -78,7 +79,7 @@ FT.manifest({
     {
       name: "backgroundImage",
       type: "image",
-      default: "images/blank.png",
+      default: "images/SCI_APR22_DCO_OFFER_V2_300x600.jpg",
     },
     {
       name: "backgroundImageALT",
@@ -93,22 +94,22 @@ FT.manifest({
     {
       name: "logoImage",
       type: "image",
-      default: "images/logo_dignity_300x600.png",
+      default: "images/Dignity_logo_300x600.png",
     },
     {
       name: "logoImage_xy",
       type: "text",
-      default: "99,261",
+      default: "0,0",
     },
     {
       name: "ctaImage",
       type: "image",
-      default: "images/Rating_Cta_Button_300x250.png",
+      default: "images/CTA_default_300x600.png",
     },
     {
       name: "ctaTxt",
       type: "text",
-      default: "LEARN MORE",
+      default: "ACT NOW",
     },
     {
       name: "ctaArrow",
@@ -118,7 +119,7 @@ FT.manifest({
     {
       name: "cta_xy_width_hex_size",
       type: "text",
-      default: "74,349, 150, #000, 14",
+      default: "74,439, 150, #000, 14", //""
     },
     {
       name: "clickText",

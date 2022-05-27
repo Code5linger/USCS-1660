@@ -1,249 +1,251 @@
 @font-face {
-    font-family: gothamBold;
-    src: url("../fonts/gotham-bold.woff");
+  font-family: gothamBold;
+  src: url("../fonts/gotham-bold.woff");
 }
 @font-face {
-    font-family: gothamBook;
-    src: url("../fonts/gotham-book.woff");
+  font-family: gothamBook;
+  src: url("../fonts/gotham-book.woff");
 }
 @font-face {
-    font-family: mrsEaveOtRoman;
-    src: url("../fonts/mrs-eave-ot-roman.woff");
+  font-family: mrsEaveOtRoman;
+  src: url("../fonts/mrs-eave-ot-roman.woff");
 }
 
 #guide {
-    background-image: url("../images/Ratings_160X600.png");
-    background-size: cover;
-    pointer-events: none;
-    position: absolute;
-    cursor: pointer;
-    opacity: 0.5;
+  background-image: url("../images/Ratings_160X600.png");
+  background-size: cover;
+  pointer-events: none;
+  position: absolute;
+  cursor: pointer;
+  opacity: 0.5;
 
-    height: 600px;
-    width: 300px;
-    left: 0px;
-    top: 0px;
+  height: 600px;
+  width: 300px;
+  left: 0px;
+  top: 0px;
 
-/*    display: none;*/
+  /*    display: none;*/
 }
 
 * {
-    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-    -moz-tap-highlight-color: rgba(255, 255, 255, 0);
-    -ms-tap-highlight-color: rgba(255, 255, 255, 0);
-    tap-highlight-color: rgba(255, 255, 255, 0);
-    
-    -webkit-font-smoothing: antialiased !important;
-    -moz-font-smoothing: antialiased !important;
-    -ms-font-smoothing: antialiased !important;
-    font-smoothing: antialiased !important;
-    
-    
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -moz-tap-highlight-color: rgba(255, 255, 255, 0);
+  -ms-tap-highlight-color: rgba(255, 255, 255, 0);
+  tap-highlight-color: rgba(255, 255, 255, 0);
 
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-font-smoothing: antialiased !important;
+  -ms-font-smoothing: antialiased !important;
+  font-smoothing: antialiased !important;
 
-    vertical-align: baseline;
-    font-weight: inherit;
-    font-family: inherit;
-    font-style: inherit;
-    font-size: 100%;
-    outline: none;
-    border: none;
-    padding: 0px;
-    margin: 0px;
-    
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  vertical-align: baseline;
+  font-weight: inherit;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  outline: none;
+  border: none;
+  padding: 0px;
+  margin: 0px;
 }
 
 html,
 body {
-    line-height: 1em;
-    height: 100%;
+  line-height: 1em;
+  height: 100%;
 }
 
 div {
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 #main {
-    background-color: #ffffff;
-    border: 0px solid #cfcfcf;
-    visibility: hidden;
-    position: absolute;
-    overflow: hidden;
-    cursor: pointer;
-    height: 600px;
-    width: 300px;
-    left: 0px;
-    top: 0px;
+  background-color: #ffffff;
+  border: 0px solid #cfcfcf;
+  visibility: hidden;
+  position: absolute;
+  overflow: hidden;
+  cursor: pointer;
+  height: 600px;
+  width: 300px;
+  left: 0px;
+  top: 0px;
 }
 
 #main:after {
-    box-sizing: border-box;
-    border-color: inherit;
-    pointer-events: none;
-    border-style: solid;
-    position: absolute;
-    border-width: 1px;
-    z-index: 999;
-    height: 100%;
-    width: 100%;
-    left: 0px;
-    top: 0px;
+  box-sizing: border-box;
+  border-color: inherit;
+  pointer-events: none;
+  border-style: solid;
+  position: absolute;
+  border-width: 1px;
+  z-index: 999;
+  height: 100%;
+  width: 100%;
+  left: 0px;
+  top: 0px;
 
-    content: "";
+  content: "";
 }
 
 .abs {
-    position: absolute;
-    left: 0px;
-    top: 0px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
 }
 
 .ad-size {
-    width: 300px;
-    height: 600px;
+  width: 300px;
+  height: 600px;
 }
 
 /*FONTS*/
 .gotham-bold {
-    font-family: gothamBold, sans-serif; 
+  font-family: gothamBold, sans-serif;
 }
 
 .gotham-book {
-    font-family: gothamBook, sans-serif; 
+  font-family: gothamBook, sans-serif;
 }
 
 .mrs-eave-ot-roman {
-    font-family: mrsEaveOtRoman, sans-serif; 
+  font-family: mrsEaveOtRoman, sans-serif;
 }
 
 #headline {
-    line-height: 0.97em;
-    font-size: 52px;
-    left: 0px;
-    top: 162px;
-    width: 300px;
-    text-align: center;
+  line-height: 0.97em;
+  font-size: 52px;
+  left: 0px;
+  top: 162px;
+  width: 300px;
+  text-align: center;
 }
 
 #subHeadline {
-    line-height: 1.4em;
-    font-size: 16px;
-    width: 300px;
-    left: 0px;
-    top: 29px;
-    text-align: center;
-    letter-spacing: 0.15em;
+  line-height: 1.4em;
+  font-size: 16px;
+  width: 300px;
+  left: 0px;
+  top: 29px;
+  text-align: center;
+  letter-spacing: 0.15em;
 }
 
 #locationWrapper {
-    line-height: 1.3em;
-    font-size: 22px;
-    width: 290px;
-    height: 3.9em;
-    left: 0px;
-    top: 428px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    position: relative;
-    margin: 0 auto;
-    padding:0px 5px 0px 5px;
+  line-height: 1.3em;
+  font-size: 15px;
+  width: 290px;
+  height: 3.9em;
+  left: 0px;
+  top: 470px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+  padding: 0px 5px 0px 5px;
 }
 
 #ratingArea {
-    width: 300px;
-    left: 0px;
-    top: 17px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+  width: 300px;
+  left: 0px;
+  top: 17px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .star {
-    width: auto;
-    height: inherit;
-    top: 0px;
-    display: inline-block;  
-    opacity: 0;
+  width: auto;
+  height: inherit;
+  top: 0px;
+  display: inline-block;
+  opacity: 0;
 }
 
 #ratingText {
-    color: #4a3c31;
-    display: inline-block;
-    margin-top: 17px;
-    line-height: 1em;
-    opacity: 0;
-    font-size: 27px;
+  color: #4a3c31;
+  display: inline-block;
+  margin-top: 17px;
+  line-height: 1em;
+  opacity: 0;
+  font-size: 27px;
 }
 
 #legal {
-    width: 300px;
-    left: 0px;
-    top: 0px;
-    font-size: 10px;
-    line-height: 1em;
+  width: 300px;
+  left: 0px;
+  top: 0px;
+  font-size: 10px;
+  line-height: 1em;
 }
 
 #clickText {
-    width: 300px;
-    left: 0px;
-    top: 587px;
-    font-size: 8px;
-    text-align: center;
-    line-height: 1em;
+  width: 300px;
+  left: 0px;
+  top: 587px;
+  font-size: 8px;
+  text-align: center;
+  line-height: 1em;
 }
 
 #ctaTextWrapper {
-/*    background-color: #47d5cd;*/
-    width: 137px;
-    height: 28px;
-    left: 74px;
-    top: 349px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 12px;
+  /*    background-color: #47d5cd;*/
+  width: 137px;
+  height: 28px;
+  left: 74px;
+  top: 349px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
 }
 
-#ctaText, #location {
-    display: inline-block;
+#ctaText {
+  display: inline-block;
+  color: #4a3c31;
+}
+
+#location {
+  display: inline-block;
+  color: #47d5cd;
 }
 
 #ctaArrow {
-    width: 23px;
-/*    height: 19px;*/
-    display: none;
-    padding-left: 10px;
-    margin-top: -1px;
-    opacity: 0;
+  width: 23px;
+  /*    height: 19px;*/
+  display: none;
+  padding-left: 10px;
+  margin-top: -1px;
+  opacity: 0;
 }
 
 .to-animate {
-    transform: rotate(0.1deg);
+  transform: rotate(0.1deg);
 }
 
 #stars {
-/*
+  /*
     margin-right: 0.55em;
     margin-left: 0.04em;
 */
-    white-space: nowrap;
-        
+  white-space: nowrap;
 }
-
 
 .macOS-chrome #ctaText,
 .macOS-safari #ctaText,
 .macOS-firefox #ctaText {
-    margin-top: 1px;
+  margin-top: 1px;
 }
