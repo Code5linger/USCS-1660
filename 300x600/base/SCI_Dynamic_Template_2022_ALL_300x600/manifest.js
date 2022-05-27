@@ -6,14 +6,14 @@ FT.manifest({
   richLoads: [
     {
       name: "dynamicRichload",
-      src: "SCI_Dynamic_Template_RL_300x600_Ratings",
+      src: "SCI_Dynamic_Template_RL_300x600_Default",
     },
   ],
   instantAds: [
     {
       name: "dynamicRichload",
       type: "richLoad",
-      default: "SCI_Dynamic_Template_RL_300x600_Ratings",
+      default: "SCI_Dynamic_Template_RL_300x600__Default",
     },
     {
       name: "feedEndpoint",
