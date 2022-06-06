@@ -221,14 +221,10 @@ div {
   font-size: 12px;
 }
 
-#ctaText {
-  display: inline-block;
-  color: #4a3c31;
-}
-
+#ctaText,
 #location {
   display: inline-block;
-  color: #47d5cd;
+  color: #4a3c31;
 }
 
 #ctaArrow {
