@@ -1,0 +1,36 @@
+
+/* Firefox */
+@-moz-document url-prefix() {
+  /* class Or Id {
+    property: value;
+  } */
+}
+
+/* Safari 11+ */
+@media not all and (min-resolution: 0.001dpcm) {
+  @supports (-webkit-appearance: none) and (stroke-color: transparent) {
+    /* selector {
+      property: value;
+    } */
+  }
+}
+
+/* IE10+ */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  /* selector {
+    property: value;
+  } */
+}
+
+/* IE6,7,9,10 */
+@media screen and (min-width: 640px), screen\9 {
+  /* selector {
+    property: value;
+  } */
+}
+
+class="mr"
+<style>
+.mr {margin-right: -6px;}
+.macOS-safari .mr {margin-right: -12px;}
+</style>
